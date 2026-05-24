@@ -25,7 +25,7 @@ export const FormDespacho = ({ venta, onClose }) => {
 
     try {
       await axios.put(
-        `http://44.222.141.48:8081/api/v1/ventas/${venta.idVenta}`,
+        `http://44.222.141.48:8082/api/v1/ventas/${venta.idVenta}`,
         jsonDataSales,
         {
           headers:{
