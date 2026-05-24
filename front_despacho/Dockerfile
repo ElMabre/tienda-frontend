@@ -4,8 +4,6 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-ARG VITE_API_DESPACHOS
-ENV VITE_API_DESPACHOS=$VITE_API_DESPACHOS
 RUN npm run build
 
 # Server con nginx
