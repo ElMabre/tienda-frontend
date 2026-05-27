@@ -34,7 +34,7 @@ export const FormDespacho = ({ venta, onClose }) => {
       }
         }
       );
-      await axios.post("http://44.222.141.48:8081/api/v1/despachos", jsonData, {
+      await axios.post("http://13.220.9.127:8081/api/v1/despachos", jsonData, {
         headers:{
           'Content-Type': 'application/json',
           'Accept': 'application/json'
