@@ -16,7 +16,7 @@ export const FormCierreDespacho = ({ despacho, onClose }) => {
 
     try {
       await axios.put(
-        `http://44.222.141.48:8081/api/v1/despachos/${despacho.idDespacho}`,
+        `http://13.220.9.127:8081/api/v1/despachos/${despacho.idDespacho}`,
         jsonData,
         {
           headers:{
